@@ -8,8 +8,11 @@ namespace UnityLog4NetResolver
     {
         public override void PreBuildUp(IBuilderContext context)
         {
-            if (context.OriginalBuildKey.Type == typeof(ILog) && context.ParentContext != null)
+            if (!context.BuildComplete && context.ParentContext != null && context.OriginalBuildKey.Type == typeof(ILog))
+            {
                 context.Existing = LogManager.GetLogger(context.ParentContext.BuildKey.Type);
+                context.BuildComplete = true;
+            }
 
             base.PreBuildUp(context);
         }

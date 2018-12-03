@@ -2,6 +2,14 @@
 
 An extension for Unity container that resolves all `log4net.ILog` dependencies basing on a type name of an object being created.
 
+# Installation
+
+NuGet package is available [here](https://www.nuget.org/packages/UnityLog4NetResolver/).
+
+```PowerShell
+PM> Install-Package UnityLog4NetResolver
+```
+
 # Use case
 
 A conventional way to create log4net loggers:
