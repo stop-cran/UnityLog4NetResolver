@@ -1,8 +1,8 @@
-# Synopsis
+# Overview [![NuGet](https://img.shields.io/nuget/v/UnityLog4NetResolver.svg)](https://www.nuget.org/packages/UnityLog4NetResolver) [![Build Status](https://travis-ci.com/stop-cran/UnityLog4NetResolver.svg?branch=master)](https://travis-ci.com/stop-cran/UnityLog4NetResolver)
 
 An extension for Unity container that resolves all `log4net.ILog` dependencies basing on a type name of an object being created.
 
-# Installation [![NuGet](https://img.shields.io/nuget/v/UnityLog4NetResolver.svg)](https://www.nuget.org/packages/UnityLog4NetResolver)
+# Installation
 
 NuGet package is available [here](https://www.nuget.org/packages/UnityLog4NetResolver/).
 
