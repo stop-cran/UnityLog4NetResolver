@@ -2,10 +2,10 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFrameworks>netcoreapp2.0;netcoreapp2.1;netcoreapp1.1;net461;net45</TargetFrameworks>
+    <TargetFrameworks>netcoreapp3.0;netcoreapp2.0;netcoreapp2.1;net461</TargetFrameworks>
     <ApplicationIcon />
     <StartupObject />
-    <Version>1.0.2</Version>
+    <Version>1.1.0</Version>
     <Authors>stop-cran &lt;stop-cran@list.ru&gt;</Authors>
     <Description>An extension for Unity container that resolves all log4net.ILog dependencies as LogManager.GetLogger(&lt;an ILog-dependent type&gt;).</Description>
     <Copyright>Apache License 2.0 (stop-cran, 2018)</Copyright>
@@ -15,7 +15,7 @@
 
   <ItemGroup>
     <PackageReference Include="log4net" Version="2.0.8" />
-    <PackageReference Include="Unity" Version="5.8.11" />
+    <PackageReference Include="Unity" Version="5.11.2" />
   </ItemGroup>
 
 </Project>
